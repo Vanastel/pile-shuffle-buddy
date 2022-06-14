@@ -36,9 +36,9 @@ def Start_tailor():
 
 ## Open Vendor ##
 def Open_vendor():
-    py.hotkey("1")
+    py.hotkey("1") # Macro in game to target vendor
     time.sleep(.25)
-    py.hotkey(".")
+    py.hotkey(".") # Interact with NPC keybind
     time.sleep(1)
     sell, tsm = py.locateCenterOnScreen(iconPathList[iconPathList.index(prefix + 'sell_tsm.png')], confidence=0.9)
     time.sleep(1)
