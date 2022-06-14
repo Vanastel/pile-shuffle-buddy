@@ -5,22 +5,11 @@ import time #Import Time
 import cv2 as cv 
 import os
 
-## Shufflebuddy v.2 ##
-
-# icons = ["bnet.png", "craft_all.png", "play.png", 
-#         "search_patterns.png", "sell_boe.png", "sell_tsm.png", 
-#         "tailoring.png", "tinyspell.png", "vendor.png", "wow_icon.png"]
-
 icons = os.listdir(r"../Pile/icons")
-
 prefix = "../Pile/icons/"
 iconPathList = []
-
 for i in icons:
-    print(i)
     iconPathList.append(prefix + i)
-
-print(iconPathList)
 
 ## Start WoW ##
 def Start_WOW():
@@ -62,8 +51,7 @@ def Shrouded_Robe_Profile():
     py.click()
     py.write("Shrouded Cloth Robe")
 
-# Start_WOW()
-time.sleep(5)
+Start_WOW()
 Start_tailor()
 Open_vendor()
 Shrouded_Robe_Profile()
