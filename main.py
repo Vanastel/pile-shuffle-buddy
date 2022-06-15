@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import pyautogui as py #Import pyautogui
-import time #Import Time
+import pyautogui as py 
+import time 
 import cv2 as cv 
 import os
 
@@ -70,7 +70,7 @@ for i in range(0,99):
     
 
 
-
+## Tools & Older versions below ##
 
 ## Shufflebuddy v.2 ##
 
@@ -131,8 +131,6 @@ for i in range(0,99):
 #         py.moveTo(sell, boe, 1)
 #         py.click()
 #         time.sleep(1.5)
-
-
 
 ##Shufflebuddy##
 ## Point and Click v.1 ##
